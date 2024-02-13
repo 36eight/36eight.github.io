@@ -1,1 +1,369 @@
 
+.InfoBoxAnime{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+     background-color: black;;
+    left: 0;
+    top: 60px;
+    backdrop-filter: brightness(60%);
+    opacity: 1;
+}
+
+#OnePieceCover{
+    position: absolute;
+    width: 1920px;
+    top: 0px;
+    height: 400px;
+    left: 0px;
+    opacity: .2;
+  z-index: -1;
+}
+
+.CoverOnpieceWanoKuni{
+  position: absolute;
+  width: 300px;
+}
+
+.CoverBild{
+  position: absolute;
+  width: 235px;
+  left: 370px;
+  top: 25px;
+}
+
+.InfoBoxAnime h3{
+  position: absolute;
+  left: 640px;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.InfoBoxAnime p{
+  padding-left: 640px;
+  padding-top: 50px;
+  line-height: 30px;
+  color: #808080;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.InfoBoxAnime a{
+  color: white;
+  text-decoration: underline;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.animeregie{
+  position: relative;
+  width: 800px;
+  height: 120px;
+  left: 640px;
+  background-color: transparent;
+}
+
+.animeregie p{
+  padding-left: 0px;
+  padding-top: 5px;
+  line-height: 4px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.animeregie a{
+  color: rgb(50, 115, 163);
+  text-decoration: none;
+}
+
+.animeregie a:hover{
+  color: #ffccff;
+}
+
+.ABKBtn{
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  background-color: yellowgreen;
+  border:none;
+  left: 1240px;
+  top: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.StaffelEpisodenContainer{
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  background-color: transparent;
+  top: 470px;
+  left: -90px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.Staffeln{
+  position: absolute;
+  top: 35px;
+  width: fit-content;
+  height: 39.15px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.Staffeln h1{
+  text-align: left;
+  background-color: transparent;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 6px;
+  margin-top: 9px;
+  margin-right: 5px;
+}
+
+.Staffelbuttons {
+  width: 39.15px;
+  height: 39.15px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+.Staffelbuttons:hover{
+  background-color: rgb(50, 115, 163);
+  color: white;
+}
+
+
+.Episodenanime {
+  position: absolute;
+  left: 490px;
+  display: flex;
+  flex-wrap: wrap; /* Hiermit wird die Umbruchfunktion aktiviert */
+  width: 1160px;
+  height: 80px;
+  background-color: white;
+}
+
+
+
+.Episodenanime h1{
+  text-align: left;
+  background-color: transparent;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 6px;
+  margin-top: 9px;
+  margin-right: 5px;
+  border: none;
+}
+
+.episodenbtn {
+  width: 39.15px;
+  height: 39.15px;
+  border: none;
+  cursor: pointer;
+}
+
+.EpisodenContainer{
+  position: absolute;
+  width: 1200px;
+  height: 3192.5px;
+  background-color: transparent;
+  top: 860px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.EpisodenschauenBtn{
+  width: 100%;
+  height: 51.5px;
+  cursor: pointer;
+  border: none;
+}
+
+.EpisodenschauenBtn:hover{
+  background-color: #ffccff;
+  border: none;
+}
+
+.EpisodenlistHeader{
+  background-color: rgb(50, 115, 163);
+  border: none;
+}
+
+.EpisodenlistHeader:hover{
+  background-color: rgb(50, 115, 163);
+    border: none;
+}
+
+.FolgeText{
+  position: absolute;
+  width: fit-content;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 12px;
+  border: none;
+}
+
+.Titel_NameTest{
+   left: 70px;
+}
+
+.HosterText{
+  right: 200px;
+}
+
+.SpracheText{
+  right: 50px;
+}
+
+.FolgeZahl{
+  height: 100%;
+  width: 77.8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
+  background-color: transparent;
+}
+
+
+.FolgeTitel{
+  height: 100%;
+  width: fit-content;
+  left: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+
+.HosterBild{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 942px;
+  top: -40px;
+}
+
+.SpracheOnepiece{
+  position: relative;
+  width: fit-content;
+  height: 26px;
+  left: 1070px;
+  top: -65px;
+  border: none;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.DescriptionFullyLoaded p{
+  position: absolute;
+  top: 0px;
+}
+
+.DescriptionFullyLoaded button{
+  position: absolute;
+  width: 130px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(50, 115, 163);
+  left: 640px;
+  top: 350px;
+  cursor: pointer;
+}
+
+.DescriptionFullyLoaded{
+  display: none;
+}
+
+.CaptureTag{
+  position: absolute;
+  top: 480px;
+  left: 400px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  color: white;
+}
+
+.AnimeTag{
+  color: white;
+  text-decoration: none;
+}
+
+.AnimeTag:hover{
+  color: grey;
+}
+
+#currentFileName{
+  color: rgb(50, 115, 163);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#currentFileName:hover{
+  color: #ffccff;
+  cursor: pointer;
+}
+
+#currentFileNameSeries2{
+  color: rgb(50, 115, 163);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#currentFileNameSeries2:hover{
+  color: #ffccff;
+  cursor: pointer;
+}
+
+
+#currentFileNameSeason2{
+  color: rgb(50, 115, 163);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#currentFileNameSeason2:hover{
+  color: #ffccff;
+  cursor: pointer;
+}
+
+.InfoboxAufklappen {
+  position: fixed;
+  width: 1920px;
+  height: 400px;
+  background-color: transparent;
+  transition: all 3s ease;
+  overflow: hidden;
+  z-index: 10;
+}
+
