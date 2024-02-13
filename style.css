@@ -1,1 +1,424 @@
+*{
+    background-color: rgb(0, 59, 87);
+}
 
+.mainHeader{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(50, 115, 163);
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.mainHeader a{
+    position: relative;
+    margin-left: 80px;
+    top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mainHeader a:hover{
+    transition: all .5s ease;
+    font-size: 31px;
+}
+
+.SettingsBtn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    left: 20px;
+    top: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+}
+
+.settingsIcon{
+    background-color: transparent;
+}
+
+.HeaderBtn{
+    position: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.HeaderBtn:hover{
+    color: black;
+    transition: all .5s ease;
+    font-size: 16px;
+}
+
+.ASerien{
+    left: 300px;
+    top: 24px;
+}
+
+.AFilme{
+    left: 460px;
+    top: 24px;
+}
+
+.SelectBuchstabe{
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex; /* Hinzugefügt */
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+}
+.SelectBuchstabe:hover{
+    background-color: rgb(50, 115, 163);
+}
+
+.SelectBuchstabe button{
+    margin-top: 1px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 2px solid rgb(50, 115, 163);
+    color: rgb(50, 115, 163);
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.AnimeVorschau{
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    width: 1200px;
+    height: 300px;
+    background-color: transparent;
+}
+
+.Vorschau_1 {
+    position: fixed;
+    width: 211px;
+    height: 299px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    overflow: hidden; /* Damit das Bild innerhalb des Containers bleibt */
+    z-index: 3;
+    cursor: pointer;
+}
+
+.v1{
+    left: 340px;
+    top: 130px;
+    background-color: transparent;
+}
+
+#CoverImage1 {
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.v1:hover #CoverImage1 {
+    transform: scale(1.1);
+}
+
+.Vorschau2{
+    position: fixed;
+    width: 400px;
+    height: 110px;
+    background-color: white;
+    border: none;
+}
+
+.v2{
+    position: fixed;
+    top: 140px;
+    left: 580px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#CoverBild2{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.v2:hover #CoverBild2 {
+    transform: scale(1.1);
+}
+
+.v3{
+    position: fixed;
+    top: 290px;
+    left: 580px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#CoverBild3{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.v3:hover #CoverBild3 {
+    transform: scale(1.1);
+}
+
+.v4{
+    position: fixed;
+    top: 130px;
+    left: 1000px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#CoverBild4{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.v4:hover #CoverBild4 {
+    transform: scale(1.1);
+}
+
+.v5{
+    position: fixed;
+    top: 130px;
+    left: 1225px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#CoverBild5{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.v5:hover #CoverBild5 {
+    transform: scale(1.1);
+}
+
+.WeiterAnimes{
+    position: absolute;
+    top: 480px;
+    left: 340px;
+    width: 1200px;
+    height: 300px;
+    background-color: transparent;
+}
+
+.WeiterAnimes h1{
+    position: absolute;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+}
+
+.Vorschau_3{
+    position: fixed;
+    width: 180px;
+    height: 239px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    overflow: hidden; /* Damit das Bild innerhalb des Containers bleibt */
+    z-index: 3;
+    cursor: pointer;
+}
+
+.weitereanimes_v1{
+    position: fixed;
+    top: 530px;
+    left: 355px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#SailormoonPicture{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.weitereanimes_v1:hover #SailormoonPicture {
+    transform: scale(1.1);
+}
+
+.weitereanmies_v2{
+    position: fixed;
+    top: 530px;
+    left: 555px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#deketivconanCover{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.weitereanmies_v2:hover #deketivconanCover {
+    transform: scale(1.1);
+}
+
+.weitereanmies_v3{
+    position: fixed;
+    top: 530px;
+    left: 755px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#signofaffectionCover{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.weitereanmies_v3:hover #signofaffectionCover {
+    transform: scale(1.1);
+}
+
+.weitereanmies_v4{
+    position: fixed;
+    top: 530px;
+    left: 955px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#sololelevelingCover{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.weitereanmies_v4:hover #sololelevelingCover {
+    transform: scale(1.1);
+}
+
+.weitereanmies_v5{
+    position: fixed;
+    top: 530px;
+    left: 1155px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#unwantedundeadCover{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.weitereanmies_v5:hover #unwantedundeadCover {
+    transform: scale(1.1);
+}
+
+.weitereanmies_v6{
+    position: fixed;
+    top: 530px;
+    left: 1355px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 3;
+}
+
+#weddingrings{
+    width: 100%; /* Damit das Bild die volle Breite des Containers einnimmt */
+    height: 100%; /* Damit das Bild die volle Höhe des Containers einnimmt */
+    object-fit: cover; /* Damit das Bild proportional innerhalb des Containers skaliert wird */
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s linear; /* Verkürzte die Transition-Definition für bessere Lesbarkeit */
+}
+
+.weitereanmies_v6:hover #weddingrings {
+    transform: scale(1.1);
+}
+
+.weitereanmies_v7{
+    position: fixed;
+    top: 530px;
+    left: 1555px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    z-index: 3;
+}
